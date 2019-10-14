@@ -23,8 +23,8 @@ int main(void) {
 
 
 //    const char * fname = "./datasets/test/test.txt";
-   const char * fname = "./datasets/wiki-vote/wiki-Vote.txt";
-  //  const char * fname = "./datasets/facebook/facebook_combined.txt";
+//   const char * fname = "./datasets/wiki-vote/wiki-Vote.txt";
+  const char * fname = "./../../RMAT/WIKI";
 
     int numOfVertices = 0;
     int numOfEdges = 0;
@@ -53,8 +53,8 @@ int main(void) {
 
 
     // if you want to check
-    printEdgeArray(edgeArray, numOfEdges); // print the edge list unsorted
-    printEdgeArray(sortedEdgeArray, numOfEdges);
+   // printEdgeArray(edgeArray, numOfEdges); // print the edge list unsorted
+   // printEdgeArray(sortedEdgeArray, numOfEdges);
 
     mapVertices(vertexArray, sortedEdgeArray, numOfVertices, numOfEdges);
 
